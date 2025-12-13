@@ -21,7 +21,7 @@ public class Student {
 		//This is a no- argument constructor
 	}
 	
-	public Student(int id, String name, int age,String email)
+	public Student(int id, String name, int age,String email, String address)
 	{//This is a parameterized constructor
 		this.id = id;
 		this.name = name;
@@ -91,7 +91,8 @@ public class Student {
 				"id =" + id +
 				", age=" + age +
 				", name=" + name +
-				", email="+email + "}";
+				", email="+email +
+				", address="+address+"}";
 	}
 	
 	
