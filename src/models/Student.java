@@ -14,6 +14,7 @@ public class Student {
 	private String name;
 	private int age;
 	private String email;
+	private String address;
 	
 	
 	public Student() {
@@ -26,6 +27,7 @@ public class Student {
 		this.name = name;
 		this.age = age;
 		this.email = email;
+		this.address = address;
 	}
 	
 	//getters and setters (encapsulation)
@@ -71,6 +73,15 @@ public class Student {
 		this.email =email;
 	}
 	
+	public String getAddress()
+	{
+		return address;
+	}
+	
+	public void setAddress(String address)
+	{
+		this.address = address;
+	}
 	
 	//Useful for printing the object
 	@Override
